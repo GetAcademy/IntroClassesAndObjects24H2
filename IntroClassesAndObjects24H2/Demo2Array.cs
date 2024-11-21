@@ -1,4 +1,6 @@
-﻿namespace IntroClassesAndObjects24H2
+﻿using IntroClassesAndObjects24H2.Demo1;
+
+namespace IntroClassesAndObjects24H2
 {
     internal class Demo2Array
     {
@@ -18,33 +20,33 @@
                     },
                 ];
              */
-            var textObject1 = new TextObject
+            var textObject1 = new Label
             {
                 Text = "Terje",
                 Col = 10,
                 Row = 3
             };
-            var textObject2 = new TextObject
+            var textObject2 = new Label
             {
                 Text = "Per",
                 Col = 3,
                 Row = 10
             };
-            var myTextObjects = new TextObject[]
+            var myTextObjects = new Label[]
             {
                 textObject1,
                 textObject2,
             };
 
-            var myTextObjectsB = new TextObject[]
+            var myTextObjectsB = new Label[]
             {
-                new TextObject
+                new Label
                 {
                     Text = "Terje",
                     Col = 10,
                     Row = 3
                 },
-                new TextObject
+                new Label
                 {
                     Text = "Per",
                     Col = 3,

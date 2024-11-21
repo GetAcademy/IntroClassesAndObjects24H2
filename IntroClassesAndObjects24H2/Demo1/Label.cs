@@ -1,6 +1,6 @@
-﻿namespace IntroClassesAndObjects24H2
+﻿namespace IntroClassesAndObjects24H2.Demo1
 {
-    class TextObject
+    class Label
     {
         public string Text;
         public int Col;

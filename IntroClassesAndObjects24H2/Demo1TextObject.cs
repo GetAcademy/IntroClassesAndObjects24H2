@@ -1,4 +1,6 @@
-﻿namespace IntroClassesAndObjects24H2
+﻿using IntroClassesAndObjects24H2.Demo1;
+
+namespace IntroClassesAndObjects24H2
 {
     internal class Demo1TextObject
     {
@@ -12,7 +14,7 @@
                 myTextObject.row = 3,
              */
 
-            var myTextObjectA = new TextObject();
+            var myTextObjectA = new Label();
             myTextObjectA.Text = "Terje";
             myTextObjectA.Col = 10;
             myTextObjectA.Row = 3;
@@ -26,7 +28,7 @@
                 }
              */
 
-            var myTextObjectB = new TextObject
+            var myTextObjectB = new Label
             {
                 Text = "Terje",
                 Col = 10,

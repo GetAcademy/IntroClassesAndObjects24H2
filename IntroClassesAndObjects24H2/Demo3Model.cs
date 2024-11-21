@@ -1,4 +1,7 @@
-﻿namespace IntroClassesAndObjects24H2
+﻿using IntroClassesAndObjects24H2.Demo1;
+using IntroClassesAndObjects24H2.Demo3;
+
+namespace IntroClassesAndObjects24H2
 {
     internal class Demo3Model
     {
@@ -36,15 +39,15 @@
                     Number = 7,
                 },
                 Counter = 5,
-                MyTextObjects = new TextObject[]
+                MyTextObjects = new Label[]
                 {
-                    new TextObject
+                    new Label
                     {
                         Text = "Terje",
                         Col = 10,
                         Row = 3
                     },
-                    new TextObject
+                    new Label
                     {
                         Text = "Per",
                         Col = 3,
