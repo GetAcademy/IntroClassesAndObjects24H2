@@ -9,7 +9,19 @@
         public int RowSpeed;
         public ConsoleColor Color;
 
+        public Label()
+        {
+        }
 
+        public Label(string text, int col, int row, int colSpeed, int rowSpeed, ConsoleColor color)
+        {
+            Text = text;
+            Col = col;  
+            Row = row;
+            ColSpeed = colSpeed;
+            RowSpeed = rowSpeed;
+            Color = color;
+        }
 
         public void Show()
         {
