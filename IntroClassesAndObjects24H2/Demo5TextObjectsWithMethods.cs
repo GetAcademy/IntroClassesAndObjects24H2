@@ -6,6 +6,7 @@ namespace IntroClassesAndObjects24H2
     {
         public static void Run()
         {
+            var labelX = new Label();
             var labels = new Label[]
             {
                 new Label("Terje", 10, 3, 1, 0, ConsoleColor.Blue),
