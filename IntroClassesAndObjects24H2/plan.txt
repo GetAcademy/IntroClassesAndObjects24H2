@@ -1,0 +1,8 @@
+﻿1. ﻿Objekter ala JavaScript
+2. TextObject (farge, col, row, isInverted, text, case)
+3. Array, textObjects
+4. (Modellere typisk emne 2-app)
+5. Vise alle objektene
+6. Flytte inn i klassen som metoder
+7. Hva kan man gjør med et TextObject?
+8. Constructor
